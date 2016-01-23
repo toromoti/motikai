@@ -27,7 +27,7 @@ hi Cursor          guifg=#000000 guibg=#F8F8F0
 hi iCursor         guifg=#000000 guibg=#F8F8F0
 hi Debug           guifg=#BCA3A3               gui=bold
 hi Define          guifg=#66D9EF
-hi Delimiter       guifg=#8F8F8F
+hi Delimiter       guifg=#A8A8A8
 hi DiffAdd                       guibg=#13354A
 hi DiffChange      guifg=#89807D guibg=#4C4745
 hi DiffDelete      guifg=#960050 guibg=#1E0010
@@ -116,7 +116,7 @@ if &t_Co > 255
     hi Cursor          ctermfg=16  ctermbg=253
     hi Debug           ctermfg=225               cterm=bold
     hi Define          ctermfg=81
-    hi Delimiter       ctermfg=241
+    hi Delimiter       ctermfg=248
 
     hi DiffAdd                     ctermbg=24
     hi DiffChange      ctermfg=181 ctermbg=239
