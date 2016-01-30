@@ -102,7 +102,7 @@ hi TabLine         guibg=#1B1D1E guifg=#808080 gui=none
 hi Normal          guifg=#F8F8F2 guibg=#1B1D1E
 hi Comment         guifg=#7E8E91
 hi CursorLine                    guibg=#293739
-hi CursorLineNr    guifg=#FD971F               gui=none
+hi CursorLineNr    guifg=#A8A8A8               gui=none
 hi CursorColumn                  guibg=#293739
 hi ColorColumn                   guibg=#232526
 hi LineNr          guifg=#465457 guibg=#232526
@@ -179,7 +179,7 @@ if &t_Co > 255
 
     hi Normal       ctermfg=252    ctermbg=234
     hi CursorLine                  ctermbg=236   cterm=none
-    hi CursorLineNr ctermfg=208                  cterm=none
+    hi CursorLineNr ctermfg=248                  cterm=none
 
     hi Boolean      ctermfg=141
     hi Character    ctermfg=222
