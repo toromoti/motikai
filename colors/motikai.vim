@@ -109,6 +109,9 @@ hi LineNr          guifg=#465457 guibg=#232526
 hi NonText         guifg=#465457
 hi SpecialKey      guifg=#465457
 
+hi IndentGuidesOdd  guibg=#121212
+hi IndentGuidesEven guibg=#3A3A3A
+
 "
 " Support for 256-color terminal
 "
@@ -209,6 +212,9 @@ if &t_Co > 255
     hi LineNr       ctermfg=239    ctermbg=235
     hi NonText      ctermfg=239
     hi SpecialKey   ctermfg=239
+
+    hi IndentGuidesOdd  ctermbg=233
+    hi IndentGuidesEven ctermbg=237
 end
 
 " Must be at the end, because of ctermbg=234 bug.
