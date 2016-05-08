@@ -100,7 +100,7 @@ hi TabLineFill     guifg=#1B1D1E guibg=#1B1D1E
 hi TabLine         guibg=#1B1D1E guifg=#808080 gui=none
 
 hi Normal          guifg=#F8F8F2 guibg=#1B1D1E
-hi Comment         guifg=#7E8E91               gui=italic
+hi Comment         guifg=#7E8E91
 hi CursorLine                    guibg=#293739
 hi CursorLineNr    guifg=#A8A8A8               gui=none
 hi CursorColumn                  guibg=#293739
@@ -208,7 +208,7 @@ if &t_Co > 255
     hi Title        ctermfg=203
     hi Visual                      ctermbg=238
 
-    hi Comment      ctermfg=244                  cterm=italic
+    hi Comment      ctermfg=244
     hi LineNr       ctermfg=239    ctermbg=235
     hi NonText      ctermfg=239
     hi SpecialKey   ctermfg=239
