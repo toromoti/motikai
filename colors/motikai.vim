@@ -69,7 +69,7 @@ hi Search          guifg=#000000 guibg=#FFE792
 " marks
 hi SignColumn      guifg=#A6E22E guibg=#232526
 hi SpecialChar     guifg=#F92672               gui=bold
-hi SpecialComment  guifg=#7E8E91               gui=bold
+hi SpecialComment  guifg=#808080               gui=bold
 hi Special         guifg=#66D9EF guibg=bg      gui=italic
 if has("spell")
     hi SpellBad    guisp=#FF0000 gui=undercurl
@@ -100,7 +100,7 @@ hi TabLineFill     guifg=#1B1D1E guibg=#1B1D1E
 hi TabLine         guibg=#1B1D1E guifg=#808080 gui=none
 
 hi Normal          guifg=#F8F8F2 guibg=#1B1D1E
-hi Comment         guifg=#7E8E91
+hi Comment         guifg=#6C6C6C
 hi CursorLine                    guibg=#293739
 hi CursorLineNr    guifg=#A8A8A8               gui=none
 hi CursorColumn                  guibg=#293739
@@ -151,7 +151,7 @@ if &t_Co > 255
     " marks column
     hi SignColumn      ctermfg=118 ctermbg=235
     hi SpecialChar     ctermfg=161               cterm=bold
-    hi SpecialComment  ctermfg=245               cterm=bold
+    hi SpecialComment  ctermfg=244               cterm=bold
     hi Special         ctermfg=81
     if has("spell")
         hi SpellBad                 ctermbg=52
@@ -208,7 +208,7 @@ if &t_Co > 255
     hi Title        ctermfg=203
     hi Visual                      ctermbg=238
 
-    hi Comment      ctermfg=244
+    hi Comment      ctermfg=242
     hi LineNr       ctermfg=239    ctermbg=235
     hi NonText      ctermfg=239
     hi SpecialKey   ctermfg=239
